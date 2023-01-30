@@ -16,8 +16,14 @@ module.exports = {
         body: ["Open Sans", "sans-serif"],
       },
       letterSpacing: {
-        0.08: '0.08em',
-      }
+        0.08: "0.08em",
+      },
+      fontSize: {
+        title: "32px",
+      },
+      fontWeight: {
+        250: "250",
+      },
     },
   },
   plugins: [require("tailwind-scrollbar")],

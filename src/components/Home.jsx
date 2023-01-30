@@ -21,33 +21,6 @@ const Home = () => {
           </a>
         </div>
       </div>
-
-      <div
-        name="#about"
-        className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row"
-      >
-        <div>
-          <h2>I'm a Front-End Developer</h2>
-          <p>
-            Hello! My name is Kenny Dang and I am currently a fourth year
-            undergraduate student at
-            <a href="https://www.odu.edu/" target="_blank">
-              Old Dominion University
-            </a>
-            pursuing a degree in computer science. I am currently seeking a
-            full-time software engineer/front-end job after graduation in Spring
-            2023. In the future, I hope to be a software developer that solves
-            real world problems or a web-developer that creates creative
-            websites.
-          </p>
-          <div>
-            <button>
-              Portfolio
-              <span></span>
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
