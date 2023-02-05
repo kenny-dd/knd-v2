@@ -1,6 +1,7 @@
 import React from "react";
 import heroImage from "../assets/mountain.jpg";
 import { FaChevronDown } from "react-icons/fa";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
             Software Engineer &amp; Web Developer
           </p>
           <a href="#about">
-            <FaChevronDown className="text-white font-extrabold" />
+                <FaChevronDown className="text-white font-extrabold" />
           </a>
         </div>
       </div>

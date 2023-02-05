@@ -3,7 +3,7 @@ import img from "../assets/bench-photo.jpg";
 const About = () => {
   return (
     <div
-      name="body"
+      name="about"
       className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full align-center pt-24"
     >
       <div name="body-text">
