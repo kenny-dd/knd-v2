@@ -25,7 +25,14 @@ module.exports = {
       },
       fontWeight: {
         250: "250",
+        200: "200",
       },
+      width: {
+        634: "634px",
+      },
+      padding: {
+        68: '68px'
+      }
     },
   },
   plugins: [require("tailwind-scrollbar")],
