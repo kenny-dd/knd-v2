@@ -7,13 +7,31 @@ const About = () => {
   const iconFormat = "w-12 h-12 mb-2";
   const iconLayout = "flex flex-col items-center align-top px-8";
 
+  const summary = [
+    {
+      id: 1,
+      iconImg: <BsKeyboard className={iconFormat}/>,
+      iconLabel: "Web Developer",
+    },
+    {
+      id: 2,
+      iconImg: <BsCpu className={iconFormat}/>,
+      iconLabel: "Tech Enthusiast",
+    },
+    {
+      id: 3,
+      iconImg: <BsJoystick className={iconFormat}/>,
+      iconLabel: "Video Games",
+    },
+  ]
+
   return (
-    <div
+    <section
       name="about"
       className="max-w-screen-lg py-68 mx-auto flex flex-col justify-center w-full h-full align-center"
     >
       <div name="body-text">
-        <h1 className="flex justify-center items-center uppercase text-title font-250 p-8">
+        <h1 className="flex justify-center items-center uppercase text-title font-250 p-8 font-thin tracking-wider">
           A Little Bit About Me
         </h1>
 
@@ -43,34 +61,26 @@ const About = () => {
       </div>
       <div>
         <div className="flex flex-col justify-center items-center">
-          <div className="align-center p-6 h-48 w-634 font-body font-thin bg-summaryGray">
+          <div className="align-center p-6 h-48 w-640 font-body font-thin bg-summaryGray">
             <h3 className="flex justify-center uppercase mb-10 text-summary font-250">
               Summary:
             </h3>
+
             <div className="flex flex-row justify-between">
-              <div className={iconLayout}>
-                <div className="inline-block">
-                  <BsKeyboard className={iconFormat} />
-                </div>
-                <h5 className="text-iconLabel font-250">Web Developer</h5>
+              {summary.map(({id, iconImg, iconLabel}) => (
+                <div className={iconLayout}>
+                  <div className="inline-block">
+                    {iconImg}
+                  </div>
+                <h5 key={id} className="text-iconLabel font-250">{iconLabel}</h5>
               </div>
-              <div className={iconLayout}>
-                <div className="inline-block">
-                  <BsCpu className={iconFormat} />
-                </div>
-                <h5 className="text-iconLabel font-250">Tech Enthusiast</h5>
-              </div>
-              <div className={iconLayout}>
-                <div className="inline-block">
-                  <BsJoystick className={iconFormat} />
-                </div>
-                <h5 className="text-iconLabel font-250">Video Games</h5>
-              </div>
+              ))}
+
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

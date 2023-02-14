@@ -11,6 +11,7 @@ module.exports = {
       },
       backgroundImage: {
         hero: 'linear-gradient(to bottom, #000000c7, #000000b4, #000000a0, #00000080, #00000066), url("https://travel-costarica.net/wp-content/uploads/2022/09/our-hideout.jpg")',
+        resume: 'linear-gradient(to bottom, #000000c7, #000000b4, #000000a0, #00000040, #00000030), url("./src/assets/landscape.jpg")',
       },
       fontFamily: {
         body: ["Open Sans", "sans-serif"],
@@ -28,10 +29,14 @@ module.exports = {
         200: "200",
       },
       width: {
-        634: "634px",
+        640: "640px",
       },
       padding: {
-        68: '68px'
+        68: '68px',
+        "resume": "22px 38px",
+      },
+      letterSpacing: {
+        1.5: "1.5px"
       }
     },
   },

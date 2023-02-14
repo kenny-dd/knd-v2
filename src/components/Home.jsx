@@ -1,12 +1,9 @@
 import React from "react";
-import { useState, useRef } from "react";
-import heroImage from "../assets/mountain.jpg";
 import { FaChevronDown } from "react-icons/fa";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div name="home">
+    <section name="home">
       <div
         name="hero"
         className="flex items-center justify-center h-9xl bg-fixed bg-center bg-cover bg-hero pt-4"
@@ -23,7 +20,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
