@@ -5,7 +5,7 @@ module.exports = {
       height: {
         "9xl": "900px",
       },
-      colors: {},
+      colors: { summaryGray: "#EAEAEC" },
       brightness: {
         40: ".40",
       },
@@ -20,6 +20,8 @@ module.exports = {
       },
       fontSize: {
         title: "32px",
+        summary: "22px",
+        iconLabel: "14px",
       },
       fontWeight: {
         250: "250",
