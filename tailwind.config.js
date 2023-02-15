@@ -29,7 +29,11 @@ module.exports = {
         200: "200",
       },
       width: {
+        50: "50px",
         640: "640px",
+      },
+      height: {
+        50: "50px"
       },
       padding: {
         68: '68px',
