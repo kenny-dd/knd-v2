@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       height: {
         "9xl": "900px",
+        50: "50px"
       },
       colors: { summaryGray: "#EAEAEC" },
       brightness: {
@@ -18,6 +19,7 @@ module.exports = {
       },
       letterSpacing: {
         0.08: "0.08em",
+        1.5: "1.5px"
       },
       fontSize: {
         title: "32px",
@@ -32,16 +34,11 @@ module.exports = {
         50: "50px",
         640: "640px",
       },
-      height: {
-        50: "50px"
-      },
       padding: {
         68: '68px',
         "resume": "22px 38px",
+        6: "24px"
       },
-      letterSpacing: {
-        1.5: "1.5px"
-      }
     },
   },
   plugins: [require("tailwind-scrollbar")],

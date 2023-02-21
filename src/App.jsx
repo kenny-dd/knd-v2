@@ -1,10 +1,10 @@
-import NavBar from "./components/NavBar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Resume from "./components/Resume";
-import Projects from "./components/Projects"
-import Technologies from "./components/Technologies";
-import Socials from "./components/Socials";
+import NavBar from "./sections/NavBar";
+import Home from "./sections/Home";
+import About from "./sections/About";
+import Resume from "./sections/Resume";
+import Projects from "./sections/Projects"
+import Technologies from "./sections/Technologies";
+import Socials from "./sections/Socials";
 
 import { useRef } from "react";
 import { MacScrollbar } from "mac-scrollbar";
