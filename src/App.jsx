@@ -3,7 +3,7 @@ import Home from "./sections/Home";
 import About from "./sections/About";
 import Resume from "./sections/Resume";
 import Projects from "./sections/Projects"
-import Technologies from "./sections/Technologies";
+import Experience from "./sections/Experience";
 import Socials from "./sections/Socials";
 
 import { useRef } from "react";
@@ -14,9 +14,9 @@ function App() {
     <div>
       <Home />
       <About />
-      <Technologies />
-      <Projects />
+      <Experience />
       <Resume />
+      <Projects />
       <Socials />
     </div>
   );

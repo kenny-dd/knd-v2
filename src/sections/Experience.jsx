@@ -1,15 +1,13 @@
 import React from "react";
 
-function Projects() {
+function Experience() {
   return (
-    <section name="projects">
+    <section name="Experience" className="bg-summaryGray">
       <div className="flex justify-center items-center uppercase text-title font-250 p-8 font-thin tracking-wider">
-        What I've Done
+        Experience
       </div>
-      
-      <div></div>
     </section>
   );
 }
 
-export default Projects;
+export default Experience;
