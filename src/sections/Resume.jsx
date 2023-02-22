@@ -7,7 +7,7 @@ function Resume() {
         name="hero"
         className="flex items-center justify-center h-64 bg-fixed bg-center bg-cover bg-resume p-3"
       >
-        <div className="flex flex-col uppercase absolute items-center font-light uppercase">
+        <div className="flex flex-col uppercase absolute items-center font-light">
           <h2 className="text-white tracking-1.5 pb-7 font-light">
             My Resume
           </h2>

@@ -10,20 +10,20 @@ const About = () => {
   const summary = [
     {
       id: 1,
-      iconImg: <BsKeyboard className={iconFormat}/>,
+      iconImg: <BsKeyboard className={iconFormat} />,
       iconLabel: "Web Developer",
     },
     {
       id: 2,
-      iconImg: <BsCpu className={iconFormat}/>,
+      iconImg: <BsCpu className={iconFormat} />,
       iconLabel: "Tech Enthusiast",
     },
     {
       id: 3,
-      iconImg: <BsJoystick className={iconFormat}/>,
+      iconImg: <BsJoystick className={iconFormat} />,
       iconLabel: "Video Games",
     },
-  ]
+  ];
 
   return (
     <section
@@ -67,15 +67,14 @@ const About = () => {
             </h3>
 
             <div className="flex flex-row justify-between">
-              {summary.map(({id, iconImg, iconLabel}) => (
+              {summary.map(({ id, iconImg, iconLabel }) => (
                 <div className={iconLayout}>
-                  <div className="inline-block">
-                    {iconImg}
-                  </div>
-                <h5 key={id} className="text-iconLabel font-250">{iconLabel}</h5>
-              </div>
+                  <div className="inline-block">{iconImg}</div>
+                  <h5 key={id} className="text-iconLabel font-250">
+                    {iconLabel}
+                  </h5>
+                </div>
               ))}
-
             </div>
           </div>
         </div>

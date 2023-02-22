@@ -42,14 +42,14 @@ function Socials() {
   return (
     <section className="bg-[#202020] h-fit">
       <div>
-        <ul className="flex flex-row align-center items-center justify-center list-none text-white pt-14 pb-12 pl-0 pr-0 m-0">
+        <ul className="flex flex-row align-center items-center justify-center list-none text-white pt-12 pb-8 pl-0 pr-0 m-0">
           {socials.map((icon) => {
             return <Icons key={icon.id} icon={icon} />;
           })}
         </ul>
       </div>
 
-      <div className="flex flex-row justify-center text-center text-[#B9B9B9]  pb-12">
+      <div className="flex flex-row justify-center text-center text-[#B9B9B9] pb-6">
         Kenny Dang{" "}
         <i>
           <BiCopyright className="pt-1 text-2xl" />
