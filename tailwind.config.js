@@ -25,6 +25,7 @@ module.exports = {
         title: "32px",
         summary: "22px",
         iconLabel: "14px",
+        technologies: "16px"
       },
       fontWeight: {
         250: "250",
