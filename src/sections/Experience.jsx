@@ -3,7 +3,7 @@ import { TiHtml5 } from "react-icons/ti";
 
 function Experience() {
   return (
-    <section name="Experience" className="bg-summaryGray p-16">
+    <section name="Experience" className="bg-summaryGray py-16 px-20">
       <div className="flex justify-center items-center uppercase text-title font-250 pb-8 tracking-wider">
         Experience
       </div>
