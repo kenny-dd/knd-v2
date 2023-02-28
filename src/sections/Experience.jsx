@@ -208,7 +208,7 @@ function Experience() {
           <a href="https://ww1.odu.edu/eng" target="_blank">
             <img
               className="w-64 max-w-256"
-              src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/294863427_5676184612393134_568561901230158102_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6Ky0K9hsgr0AX8Dd5nq&tn=5ukrynDEwihpM623&_nc_ht=scontent-iad3-2.xx&oh=00_AfDBS-_3v1YcjS9-SmrHADWVjIlTQZyxWu4sMIFiJF_c6g&oe=63FDE66F"
+              src="https://cdn.shopify.com/s/files/1/2150/7589/collections/Old_Dominion_logo.png?v=1631774536"
               fill="currentColor"
             />
           </a>
