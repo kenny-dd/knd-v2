@@ -31,7 +31,7 @@ const About = () => {
       className="max-w-screen-lg py-68 mx-auto flex flex-col justify-center w-full h-full align-center"
     >
       <div name="body-text">
-        <h1 className="flex justify-center items-center uppercase text-title font-250 p-8 font-thin tracking-wider">
+        <h1 className="flex justify-center items-center uppercase text-title font-250 p-8 tracking-wider">
           A Little Bit About Me
         </h1>
 

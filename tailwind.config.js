@@ -13,7 +13,7 @@ module.exports = {
       backgroundImage: {
         hero: 'linear-gradient(to bottom, #000000c7, #000000b4, #000000a0, #00000080, #00000066), url("https://travel-costarica.net/wp-content/uploads/2022/09/our-hideout.jpg")',
         resume:
-          'linear-gradient(to bottom, #000000c7, #000000b4, #000000a0, #00000040, #00000030), url("src/assets/landscape.JPG")',
+          'linear-gradient(to bottom, #000000c7, #000000b4, #000000a0, #00000040, #00000030), url("https://github.com/kenny-dd/knd-v2/blob/main/src/assets/landscape.jpg")',
       },
       fontFamily: {
         body: ["Open Sans", "sans-serif"],
