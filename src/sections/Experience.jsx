@@ -1,5 +1,5 @@
 import React from "react";
-import oduLogo from "../assets/odu.jpg";
+import oduLogo from "../assets/odu.webp";
 import { TiHtml5 } from "react-icons/ti";
 
 function Experience() {

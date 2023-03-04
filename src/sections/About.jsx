@@ -1,5 +1,5 @@
 import React from "react";
-import benchPic from "../assets/bench-photo.jpg";
+import benchPic from "../assets/bench-photo.webp";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BsCpu, BsJoystick, BsKeyboard } from "react-icons/bs";
 
