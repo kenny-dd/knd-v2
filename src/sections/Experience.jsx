@@ -1,4 +1,5 @@
 import React from "react";
+import oduLogo from "../assets/odu.jpg";
 import { TiHtml5 } from "react-icons/ti";
 
 function Experience() {
@@ -206,11 +207,7 @@ function Experience() {
             Where I've Worked
           </p>
           <a href="https://ww1.odu.edu/eng" target="_blank">
-            <img
-              className="w-64 max-w-256"
-              src="https://cdn.shopify.com/s/files/1/2150/7589/collections/Old_Dominion_logo.png?v=1631774536"
-              fill="currentColor"
-            />
+            <img className="w-64 max-w-256" src={oduLogo} fill="currentColor" />
           </a>
         </div>
       </div>
