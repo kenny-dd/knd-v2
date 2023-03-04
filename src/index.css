@@ -124,3 +124,15 @@
     ),
     url("./assets/landscape.webp");
 }
+
+#hero-background {
+  background-image: linear-gradient(
+      to bottom,
+      #000000c7,
+      #000000b4,
+      #000000a0,
+      #00000080,
+      #00000066
+    ),
+    url("./assets/mountain.webp");
+}

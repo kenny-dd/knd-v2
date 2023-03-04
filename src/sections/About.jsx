@@ -36,7 +36,11 @@ const About = () => {
         </h1>
 
         <div className="flex justify-center items-center">
-          <img src={benchPic} alt="Photo Icon" className="w-44 rounded-full" />
+          <img
+            src={benchPic}
+            alt="Photo Icon"
+            className="w-44 h-44 rounded-full"
+          />
         </div>
 
         <div

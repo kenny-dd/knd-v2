@@ -207,7 +207,12 @@ function Experience() {
             Where I've Worked
           </p>
           <a href="https://ww1.odu.edu/eng" target="_blank">
-            <img className="w-64 max-w-256" src={oduLogo} fill="currentColor" />
+            <img
+              className="w-64 h-64 max-w-256"
+              src={oduLogo}
+              fill="currentColor"
+              alt="ODU Batten College of Engineering"
+            />
           </a>
         </div>
       </div>

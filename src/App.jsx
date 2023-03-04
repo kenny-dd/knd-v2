@@ -5,8 +5,6 @@ import Resume from "./sections/Resume";
 import Experience from "./sections/Experience";
 import Socials from "./sections/Socials";
 
-import { useRef } from "react";
-import { MacScrollbar } from "mac-scrollbar";
 
 function App() {
   return (
